@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+/* Hide scrollbar for IE, Edge, and Chrome */
+*::-webkit-scrollbar {
+  width: 0px; /* Adjust the width as needed */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body{
+  overflow-x:hidden;
+}
+
+.introduction {
+  width: 100vw;
+  height: 100vh;
+  padding-left: 100px;
+  
+  background: url("image/bg.png") top right no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw 100%; 
+  background-position: 0% 20%;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size : 4vw;
+  color: antiquewhite;
+
+  text-align: left;
+}
+
+.hainzel{
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 10vw;
+  background: linear-gradient(-45deg, rgb(156, 202, 81),  rgb(215, 186, 105));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.separator{
+  width: 12vw;
+  height: 15px;
+  background-color: aliceblue;
+}
+
+.student{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4vw;
+  font-style: italic;
+  color: aliceblue;
+}
+
+.scroll-down {
+  padding-top: 7vh;
+  font-size : 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.about-me{
+  padding-top: 20px;
+  padding-right: 60px;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+}
+
+.img_profile{
+  background: url("image/profil.png")  no-repeat top ;
+  background-size: 55%;
+  padding-left : 1vw ;
+}
+
+.about-me h1 {
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 10vw;
+  font-size : 5vw;
+  width: 100%;
+}
+
+.paragraf {
+  font-size: 3vw;
+}
+
+.works{
+}
+
+.works h1 {
+  font-family: 'Yanone Kaffeesatz';
+  font-size : 5vw;
+  text-align: center;
+}
+
+.carousel-indicator {
+  margin-top: 3vh;
+}
+
+footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-width: 0;
+}
